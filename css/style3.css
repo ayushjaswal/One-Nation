@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    height: 5rem;
+    z-index: 10000;
+}
+header nav{
+    height: 5rem;
+}
+header nav ul{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+header nav ul li{
+    list-style: none;
+    padding: 1.5rem;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-size: 1.5rem;
+}
+.sec-1{
+    background: url('../images/beat-schuler-9D2WUVsT9_I-unsplash.jpg') no-repeat center center/cover;
+    height: 700px;
+    opacity: 1;
+}
+
+.primary-heading{
+    display: flex;
+    flex-direction: column;
+    /* position: fixed; */
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    color: white;
+    font-size: 4rem;
+}
+.primary-heading p{
+    /* color: black; */
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: justify;
+    /* height: 400px; */
+}
+.sec-2{
+    background: url('../images/john-fowler-7Ym9rpYtSdA-unsplash.jpg') no-repeat center center/cover;
+}
+.input{
+    padding: 0.5rem 2.5rem;
+    font-size: 1.5rem;
+    border: 0;
+
+}
+.label{
+    font-size: 3rem;
+    /* border: 2px solid ; */
+    /* padding: 0; */
+    /* margin: 2rem; */
+}
+.form button{
+    position: relative;
+    left: 5rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition: 600ms;
+}
+.form button:hover{
+    transform: scale(1.2);
+}
+.form button:active{
+    transform: scale(0.9);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    padding: 4rem;
+}
+
+.footer footer{
+    display: flex;
+}
+
+.footer ul li{
+    padding: 0.2rem;
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: grey;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    position: relative;
+    height: 5rem;
+    z-index: 10000;
+    background-color: white;
+
+}
+header nav{
+    position: relative;
+    height: 5rem;
+    z-index: 10;
+}
+header nav ul{
+    position: relative;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 9;
+}
+.sticky nav ul a{
+    background-color: black;
+    
+}
+header nav ul li{
+    list-style: none;
+    padding: 1.5rem;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-size: 1.5rem;
+}
+.sec-1{
+    position: relative;
+    background: url('../images/nasa-Q1p7bh3SHj8-unsplash.jpg') no-repeat center center/cover;
+}
+.primary-heading{
+    display: flex;
+    flex-direction: column;
+    /* position: fixed; */
+    justify-content: center;
+    align-items: center;
+    height: 566px;
+    color: white;
+    font-size: 4rem;
+}
+.primary-heading p{
+    width: 50%;
+    font-size: 1.2rem;
+}
+.sec-2{
+    position: relative;
+    background: url('../images/jongsun-lee-F-pSZO_jeE8-unsplash.jpg') no-repeat center center/cover;
+    height: 566px;
+}
+.sec-3{
+    position: relative;
+    background: url('../images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg') no-repeat center center/cover;
+    height: 566px;
+
+}
+.sec-3 h1{
+    font-size: 4rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    padding: 4rem;
+}
+
+.footer footer{
+    display: flex;
+}
+
+.footer ul li{
+    padding: 0.2rem;
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: grey;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+}
